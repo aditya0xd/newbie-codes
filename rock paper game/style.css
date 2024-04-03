@@ -1,0 +1,92 @@
+body{
+    margin-top: 0px;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 2.2em;
+    margin: auto;
+    text-align: center;
+}
+
+.images-container{
+    display: flex;
+    margin-top: 45px;
+    justify-content: center;
+}
+
+.images{
+    background-color: hsl(183, 89%, 50%);
+    border-style: NONE;
+    width: 140px;
+    height: 100px;
+    margin: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.3em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 2px 3px 12px;
+    font-weight: bold;
+}
+
+
+#rock{
+    transition: background-color .5s;
+    background-color: tomato;
+    font-size: 3em;
+    text-shadow: 2px 2px 10px;
+    
+}
+
+#rock:hover{
+    background-color: hsla(9, 96%, 58%, 0.952);;
+}
+
+#paper{
+    transition: background-color .5s;
+    background-color: aqua;
+    font-size: 3em;
+    text-shadow: 2px 2px 10px;
+}
+
+#paper:hover{
+    background-color:hsl(180, 100%, 45%);
+}
+
+#scissors{
+    transition: background-color .5s;
+    background-color: yellow;
+    font-size: 3em;
+    text-shadow: 2px 2px 10px;
+}
+
+#scissors:hover{
+    background-color:hsl(60, 100%, 45%);
+}
+
+.choose{
+    
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+}
+
+#message{
+    font-size: 3.3em;
+    color: hsl(120, 87%, 60%);
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.score{
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: bold;
+}
+
