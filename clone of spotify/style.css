@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul{
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex ;
+    list-style-type: none;
+    height: 75px;
+
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    padding: 0 4px;
+
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.Container {
+    display: flex;
+    background-color: black;
+    min-height: 72vh;
+    border-radius: 12px;
+    margin: 10px auto;
+    padding: 34px;
+    width: 90%;
+    align-items: center;
+    
+}
+
+#h1 {
+    color: rgb(255, 255, 255);
+    align-items: center;
+    padding-left: 530px;
+}
+
+#myProgressBar{
+    position: sticky;
+    margin: 50px;
+    width: 90vw; 
+    cursor: pointer;
+
+}
+.bottom {
+    position: sticky;
+    background-color: black;
+}
